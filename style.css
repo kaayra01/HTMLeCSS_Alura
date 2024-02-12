@@ -58,6 +58,10 @@ body {
     border: 2px solid var(--main-white);
 }
 
+.second_button:hover {
+    border: 2px solid transparent;
+}
+
 .container__warning {
     font-size: 12px;
     color: var(--second-gray);
@@ -166,4 +170,13 @@ body {
 
 .item__list:hover {
     color: var(--second-gray);
+}
+
+li img {
+    transition: 0.5s;
+}
+
+li img:hover {
+    transform: scale(1.15);
+    transition: 0.7s;
 }
