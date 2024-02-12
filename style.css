@@ -3,8 +3,8 @@
     --second-gray: #C0C0C0;
     --blue-button: #167BF7;
     --background-color: #00030C;
+    --button-effect: #EC2F46;
     --main-font: 'Inter';
-    --blue-button-effect: #3c92fa;
 }
 
 * {
@@ -164,7 +164,7 @@ body {
 }
 
 .container__button:hover {
-    background-color: var(--blue-button-effect);
+    background-color: var(--button-effect);
     color: var(--background-color);
 }
 
